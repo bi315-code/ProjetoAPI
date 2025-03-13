@@ -108,6 +108,11 @@ def updateTurma(idTurma):
         
 
 
+#DELETE
+
+@app.route("/aluno/<int:idAluno>", methods=['DELETE'])
+def deleteTurma(idTurma):
+
 
 
 
